@@ -1,4 +1,4 @@
-// Cours de Jason Champagne : Formationvideo - biblioth�que dynamique - https://www.youtube.com/watch?v=pKOJFZN_HUk
+﻿// Cours de Jason Champagne : Formationvideo - bibliothèque dynamique - https://www.youtube.com/watch?v=pKOJFZN_HUk
 // 
 // Programme principal
 // Compile parfaitement avec CmakeLists.txt
