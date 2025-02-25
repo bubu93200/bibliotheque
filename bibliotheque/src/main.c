@@ -1,6 +1,8 @@
 // Cours de Jason Champagne : Formationvideo - bibliothèque dynamique - https://www.youtube.com/watch?v=pKOJFZN_HUk
 // 
 // Programme principal
+// Compile parfaitement avec CmakeLists.txt
+
 
 #include "../include/point.h"
 #include "../include/screen.h"
