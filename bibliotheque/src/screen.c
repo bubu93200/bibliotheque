@@ -28,6 +28,6 @@ void powerOffScreen(Screen* scr)
 
 void drawPointOnScreen(Screen* scr, Point* pt)
 {
-	if (pt->x > 0 && pt->x < scr.width && pt->y > 0 && pt->y < scr->height)
+	if (pt->x > 0 && pt->x < scr->width && pt->y > 0 && pt->y < scr->height)
 		printf("Le point est dessiné aux coordonnées (%d, %d) de l'écran\n", pt->x, pt->y);
 }

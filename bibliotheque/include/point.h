@@ -9,6 +9,6 @@
 		int y;
 	} Point;
 
-	Point createPoint(intx, int y, Color* c);
+	Point createPoint(int x, int y, Color* c);
 
 #endif // !__POINT__

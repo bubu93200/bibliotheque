@@ -1,11 +1,21 @@
 ﻿# CMakeList.txt : projet CMake pour bibliotheque, incluez la source et définissez
 # la logique spécifique au projet ici.
 #
+# Version minimale de CMake requise
+cmake_minimum_required(VERSION 3.10)
 
-# Ajoutez une source à l'exécutable de ce projet.
+# Nom du projet
+project(Bibliotheque C)
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET bibliotheque PROPERTY CXX_STANDARD 20)
-endif()
+# Définir la version du standard C (par exemple, C99)
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
-# TODO: Ajoutez des tests et installez des cibles si nécessaire.
+# Inclure le répertoire des entêtes
+include_directories(include)
+
+# Récupérer tous les fichiers sources dans ./src
+file(GLOB SOURCES "src/*.c")
+
+# Créer l'exécutable
+add_executable(bibliotheque ${SOURCES})
