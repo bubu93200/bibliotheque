@@ -3,7 +3,6 @@
 #
 
 # Ajoutez une source à l'exécutable de ce projet.
-add_executable (bibliotheque "bibliotheque.cpp" "bibliotheque.h" "src/main.c" "include/point.h" "src/screen.c" "src/point.c")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET bibliotheque PROPERTY CXX_STANDARD 20)
